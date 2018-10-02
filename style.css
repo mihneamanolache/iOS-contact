@@ -69,7 +69,10 @@ th
 }
 .userBar
 {
+    position: relative;
+    margin: 0;
     float: left;
+    max-width: 400px;
     font-family: -apple-system;
     color: rgb(0, 119, 255);
     font-size: 17px;
@@ -111,6 +114,7 @@ a:active {
 }
 .contact
 {
+    position: relative;
     font-size: 18px;
     font-family: -apple-system;
     color: rgb(0, 119, 255);
@@ -137,4 +141,18 @@ a:active {
     color: white;
     font-family: -apple-system;
     font-size: 15px;
+}
+#map
+{
+    position: relative;
+    padding-top: -100px;
+    float: right;
+    height: 100px;  /* The height is 400 pixels */
+    width: 40%;  /* The width is the width of the web page */
+}
+.leftFooter h1
+{
+    float: left;
+    font-weight: normal;
+    font-family: -apple-system;
 }

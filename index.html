@@ -60,10 +60,26 @@
           <div class="contactType">
             address
         </div>
-        <div class="contact">
-            Ale. Erou Mirea Mioara Luiza nr.3A <br>
-            Sector 4, Bucuresti
-        </div>  
+            <div class="leftFooter">
+                <h1 class="contact">
+                    Ale. Erou Mirea Mioara<br>
+                    Luiza nr.3A, <br>
+                    Sector 4, Bucuresti
+                </h1> 
+            </div>   
+        <div id="map"></div>
+    <script>
+        function initMap() 
+        {
+        var uluru = {lat: 44.390808, lng: 26.116449};
+        var map = new google.maps.Map(
+            document.getElementById('map'), {zoom: 12, center: uluru});
+        var marker = new google.maps.Marker({position: uluru, map: map});
+        }
+    </script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBRrnhl1mCfuWpxL4Ame0cyS8fcV7xoyLk&callback=initMap">
+    </script>
     </div>
 </body>
 </html>
