@@ -114,9 +114,6 @@ a:active {
     margin: 0 auto;
     margin-top: 10px;
     background: rgb(0, 119, 255);
-    color: white;
-    font-family: -apple-system;
-    font-size: 15px;
     height: 20px; 
     width: 20px;
     border-radius: 50%;
@@ -129,5 +126,5 @@ a:active {
 {
     color: white;
     font-family: -apple-system;
-    font-size: 100%;
+    font-size: 15px;
 }
